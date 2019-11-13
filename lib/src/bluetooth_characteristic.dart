@@ -123,7 +123,7 @@ class BluetoothCharacteristic {
         .invokeMethod('writeCharacteristic', request.writeToBuffer());
 
     if (type == CharacteristicWriteType.withoutResponse) {
-      _value.add(value);
+      //_value.add(value);
       return result;
     }
 
